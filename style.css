@@ -1,0 +1,77 @@
+header {
+    width: 100vw;
+    height: 60px;
+    background-color: #000000;
+    margin: 0px;
+    padding: 15px;
+}
+
+header>p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+#container {
+    width: 1300px;
+    display: flex;
+    gap: 10px;
+    margin: 20px 40px;
+    align-items: center;
+}
+
+.btn {
+    width: 217px;
+    height: 66px;
+    background-color: #000000;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+#search {
+    width: 1000px;
+    height: 65px;
+    border: 1px solid #000000;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    background: linear-gradient(0deg, #D9D9D9, #D9D9D9);
+}
+
+table {
+    align-self: start;
+    border-collapse: collapse;
+    width: 1325px;
+    height: 65px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+}
+
+td,
+th {
+    padding: 10px;
+    text-align: center;
+    vertical-align: center;
+}
